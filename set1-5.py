@@ -1,0 +1,10 @@
+n1,n2,n3=input().split()
+d1=int(n1)
+d2=int(n2)
+d3=int(n3)
+if((d1>d2)and(d1>d3)):
+    print(d1)
+elif((d2>d1)and(d2>d3)):
+    print(d2)
+else:
+    print(d3)
